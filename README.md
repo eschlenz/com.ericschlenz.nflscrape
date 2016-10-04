@@ -39,6 +39,10 @@ the following:
 * The Raiders Offensive Passing game vs. the Broncos Defensive Passing game is a fairly even matchup at a differential of 5.
 * The Raiders Offensive Rushing game vs. the Broncos Defensive Rushing game favors the Broncos at 20.
 
+What is it good for?
+-------------
+It's good for finding favorable NFL matchups for a given week, solely based on rankings statistics. It stands to reason that if you have a #1 ranked offensive passing team vs. a #32 ranked defensive passing team, the offense has a substantial advantage. So it can be used as a good starting point for picking fantasy football players. It is intended only to compliment any research you may be doing. It is NOT, by any means, a reliable source of data on its own.
+
 How do I run it?
 -------------
 
