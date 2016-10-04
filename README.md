@@ -41,7 +41,14 @@ the following:
 
 What is it good for?
 -------------
+
 It's good for finding favorable NFL matchups for a given week, solely based on rankings statistics. It stands to reason that if you have a #1 ranked offensive passing team vs. a #32 ranked defensive passing team, the offense has a substantial advantage. So it can be used as a good starting point for picking fantasy football players. It is intended only to compliment any research you may be doing. It is NOT, by any means, a reliable source of data on its own.
+
+It stopped working.
+-------------
+
+I fully anticipate this will happen as soon as ESPN updates or changes their website. This is working ast of Oct 3rd, 2016. It is, however, susceptible to breaking because it is looking for specific HTML elements within the ESPN website. So if and when the web developers over at ESPN change things, this app will most likely break. It should be easy to fix though.
+
 
 How do I run it?
 -------------
