@@ -14,22 +14,22 @@ It does so by looking at the following rankings from ESPN:
 Let's say that the Denver Broncos are facing off against the Oakland Raiders this week. And let's say the rankings for each
 team are as follows:
 
-Broncos Offensive Passing Ranking (OPR): 1st out of 32 teams.
-Broncos Defensive Passing Ranking (DPR): 5th out of 32 teams.
-Broncos Offensive Rushing Ranking (ORR): 10th out of 32 teams.
-Broncos Defensive Rushing Ranking (DRR): 20th out of 32 teams.
+* ```Broncos Offensive Passing Ranking (OPR): 1st out of 32 teams.```
+* ```Broncos Defensive Passing Ranking (DPR): 5th out of 32 teams.```
+* ```Broncos Offensive Rushing Ranking (ORR): 10th out of 32 teams.```
+* ```Broncos Defensive Rushing Ranking (DRR): 20th out of 32 teams.```
 
-Raiders Offensive Passing Ranking (OPR): 31st out of 32 teams.
-Raiders Defensive Passing Ranking (DPR): 3rd out of 32 teams.
-Raiders Offensive Rushing Ranking (ORR): 4th out of 32 teams.
-Raiders Defensive Rushing Ranking (DRR): 19th out of 32 teams.
+* ```Raiders Offensive Passing Ranking (OPR): 31st out of 32 teams.```
+* ```Raiders Defensive Passing Ranking (DPR): 3rd out of 32 teams.```
+* ```Raiders Offensive Rushing Ranking (ORR): 4th out of 32 teams.```
+* ```Raiders Defensive Rushing Ranking (DRR): 19th out of 32 teams.```
 
 Based on these rankings, a differential can be produced:
 
-Broncos OPR vs Raiders DPR = (Raiders) 3  - (Denver)  1  = 2   (differential)
-Broncos ORR vs Raiders DRR = (Raiders) 19 - (Denver)  10 = 9   (differential)
-Raiders OPR vs Broncos DPR = (Broncos) 5  - (Raiders) 31 = -26 (differential)
-Raiders ORR vs Broncos DRR = (Broncos) 20 - (Raiders) 4  = 16  (differential)
+* ```Broncos OPR vs Raiders DPR = (Raiders) 3  - (Denver)  1  = 2   (differential)```
+* ```Broncos ORR vs Raiders DRR = (Raiders) 19 - (Denver)  10 = 9   (differential)```
+* ```Raiders OPR vs Broncos DPR = (Broncos) 5  - (Raiders) 31 = -26 (differential)```
+* ```Raiders ORR vs Broncos DRR = (Broncos) 20 - (Raiders) 4  = 16  (differential)```
 
 The differential value will vary from -31 (worst matchup) to +31 (best matchup). 0 means a very even matchup. So using this information we can conclude
 the following:
