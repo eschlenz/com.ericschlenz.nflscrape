@@ -149,7 +149,7 @@ public class Main {
         System.out.println();
 
         for (Map.Entry<String, Integer> entry : ranks.entrySet()) {
-            System.out.println(String.format("Team: %02d, %2$s", entry.getValue(), entry.getKey()));
+            System.out.println(String.format("Team: %1$ 3d, %2$s", entry.getValue(), entry.getKey()));
         }
 
         System.out.println();
@@ -193,8 +193,19 @@ public class Main {
         Collections.sort(offDiff);
 
         System.out.println();
+        int i=1;
         for (Differential diff : offDiff) {
-            System.out.println(String.format("Differential: %1$d, %2$s", diff.getDifferential(), diff.getTeamName()));
+            int diffVal = diff.getDifferential();
+            String favoredTeam = diff.getTeamName();
+            String opponentTeam = schedule.get(favoredTeam);
+
+            System.out.println(String.format(
+                "%1$ 3d. Differential: %2$ 3d -> %3$3s (playing %4$s)",
+                i,
+                diff.getDifferential(),
+                diff.getTeamName(),
+                opponentTeam));
+            i++;
         }
     }
 
