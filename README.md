@@ -67,6 +67,20 @@ Example Output
 -------------
 
 ```
+Parallel execution with configuration on demand is an incubating feature.
+:compileJava
+warning: [options] bootstrap class path not set in conjunction with -source 1.5
+warning: [options] source value 1.5 is obsolete and will be removed in a future release
+warning: [options] target value 1.5 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+4 warnings
+:processResources UP-TO-DATE
+:classes
+:run
+
+
+Date: Sat Oct 08 15:22:27 MDT 2016
+
 Loading schedule: http://www.espn.com/nfl/schedule/_/week/
 
 Games: 
