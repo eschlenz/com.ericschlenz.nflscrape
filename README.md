@@ -483,6 +483,226 @@ SEA must be on a bye.
 KC must be on a bye.
 NO must be on a bye.
 JAX must be on a bye.
+Eric:NFL Scrape/ (master) $ ./gradlew run                                                                                [15:22:21]
+Parallel execution with configuration on demand is an incubating feature.
+:compileJava
+warning: [options] bootstrap class path not set in conjunction with -source 1.5
+warning: [options] source value 1.5 is obsolete and will be removed in a future release
+warning: [options] target value 1.5 is obsolete and will be removed in a future release
+warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+4 warnings
+:processResources UP-TO-DATE
+:classes
+:run
+
+
+Date: Sat Oct 08 15:22:27 MDT 2016
+
+Loading schedule: http://www.espn.com/nfl/schedule/_/week/
+
+Games for week: (current)
+
+ARI at SF
+ NE at CLE
+PHI at DET
+CHI at IND
+TEN at MIA
+WSH at BAL
+HOU at MIN
+NYJ at PIT
+ATL at DEN
+CIN at DAL
+BUF at LA
+ SD at OAK
+NYG at GB
+ TB at CAR
+
+Offensive Passing Rankings
+
+Team:   1, ATL
+Team:   2, ARI
+Team:   3, NO
+Team:   4, CIN
+Team:   5, NYG
+Team:   6, WSH
+Team:   7, DET
+Team:   8, SD
+Team:   9, OAK
+Team:  10, CAR
+Team:  11, SEA
+Team:  12, PIT
+Team:  13, IND
+Team:  14, TB
+Team:  15, CHI
+Team:  16, MIA
+Team:  17, BAL
+Team:  18, KC
+Team:  19, NYJ
+Team:  20, DAL
+Team:  21, JAX
+Team:  22, DEN
+Team:  23, MIN
+Team:  24, CLE
+Team:  25, HOU
+Team:  26, TEN
+Team:  27, SF
+Team:  28, NE
+Team:  29, LA
+Team:  30, PHI
+Team:  31, BUF
+Team:  32, GB
+
+Defensive Passing Rankings
+
+Team:   1, PHI
+Team:   2, HOU
+Team:   3, DEN
+Team:   4, BAL
+Team:   5, SEA
+Team:   6, JAX
+Team:   7, CHI
+Team:   8, MIN
+Team:   9, CIN
+Team:  10, GB
+Team:  11, ARI
+Team:  12, KC
+Team:  13, TEN
+Team:  14, CAR
+Team:  15, TB
+Team:  16, CLE
+Team:  17, BUF
+Team:  18, NYG
+Team:  19, DAL
+Team:  20, NE
+Team:  21, DET
+Team:  22, MIA
+Team:  23, LA
+Team:  24, IND
+Team:  25, SF
+Team:  26, WSH
+Team:  27, NYJ
+Team:  28, SD
+Team:  29, NO
+Team:  30, PIT
+Team:  31, ATL
+Team:  32, OAK
+
+Offensive Rushing Rankings
+
+Team:   1, SF
+Team:   2, CLE
+Team:   3, DAL
+Team:   4, ARI
+Team:   5, NE
+Team:   6, TEN
+Team:   7, OAK
+Team:   8, ATL
+Team:   9, BUF
+Team:  10, CAR
+Team:  11, NYJ
+Team:  12, HOU
+Team:  13, PIT
+Team:  14, DEN
+Team:  15, SD
+Team:  16, BAL
+Team:  17, NYG
+Team:  18, SEA
+Team:  19, WSH
+Team:  20, DET
+Team:  21, KC
+Team:  22, PHI
+Team:  23, IND
+Team:  24, TB
+Team:  25, CHI
+Team:  26, NO
+Team:  27, CIN
+Team:  28, MIA
+Team:  29, LA
+Team:  30, GB
+Team:  31, JAX
+Team:  32, MIN
+
+Defensive Rushing Rankings
+
+Team:   1, GB
+Team:   2, PHI
+Team:   3, NYJ
+Team:   4, PIT
+Team:   5, BAL
+Team:   6, SEA
+Team:   7, SD
+Team:   8, MIN
+Team:   9, NYG
+Team:  10, CAR
+Team:  11, DAL
+Team:  12, TB
+Team:  13, BUF
+Team:  14, CIN
+Team:  15, NE
+Team:  16, ATL
+Team:  17, LA
+Team:  18, IND
+Team:  19, JAX
+Team:  20, TEN
+Team:  21, DEN
+Team:  22, DET
+Team:  23, CLE
+Team:  24, NO
+Team:  25, CHI
+Team:  26, HOU
+Team:  27, KC
+Team:  28, MIA
+Team:  29, WSH
+Team:  30, OAK
+Team:  31, ARI
+Team:  32, SF
+
+******************************
+Best Offensive Passing Scenarios
+******************************
+
+NO appears to be on a bye.
+SEA appears to be on a bye.
+KC appears to be on a bye.
+JAX appears to be on a bye.
+
+  1. Differential:  24 ->  SD (playing OAK)
+  2. Differential:  23 -> ARI (playing SF)
+  3. Differential:  19 -> OAK (playing SD)
+  4. Differential:  15 -> CIN (playing DAL)
+  5. Differential:  15 -> PIT (playing NYJ)
+  6. Differential:  11 -> NYJ (playing PIT)
+  7. Differential:   9 -> CHI (playing IND)
+  8. Differential:   9 -> BAL (playing WSH)
+  9. Differential:   9 -> DEN (playing ATL)
+ 10. Differential:   5 -> NYG (playing GB)
+ 11. Differential:   5 -> CAR (playing TB)
+ 12. Differential:   2 -> ATL (playing DEN)
+ 13. Differential:   0 ->  TB (playing CAR)
+ 14. Differential:  -2 -> WSH (playing BAL)
+ 15. Differential:  -3 -> MIA (playing TEN)
+ 16. Differential:  -4 -> CLE (playing NE)
+ 17. Differential:  -4 -> TEN (playing MIA)
+ 18. Differential:  -6 -> DET (playing PHI)
+ 19. Differential:  -6 -> IND (playing CHI)
+ 20. Differential:  -8 -> BUF (playing LA)
+ 21. Differential:  -9 -> PHI (playing DET)
+ 22. Differential: -11 -> DAL (playing CIN)
+ 23. Differential: -12 ->  NE (playing CLE)
+ 24. Differential: -12 ->  LA (playing BUF)
+ 25. Differential: -14 ->  GB (playing NYG)
+ 26. Differential: -16 ->  SF (playing ARI)
+ 27. Differential: -17 -> HOU (playing MIN)
+ 28. Differential: -21 -> MIN (playing HOU)
+
+******************************
+Best Offensive Rushing Scenarios
+******************************
+
+SEA appears to be on a bye.
+KC appears to be on a bye.
+NO appears to be on a bye.
+JAX appears to be on a bye.
 
   1. Differential:  30 ->  SF (playing ARI)
   2. Differential:  28 -> ARI (playing SF)
@@ -516,7 +736,7 @@ JAX must be on a bye.
 
 BUILD SUCCESSFUL
 
-Total time: 2.405 secs
+Total time: 1.641 secs
 
 ```
 
