@@ -28,6 +28,7 @@ public class Main {
     private static final String ESPN_ALIGN_LEFT = "[align=left]";
     private static final String ESPN_A = "a";
 
+    private final String week;
     private final String scheduleUrl;
     private Map<String, String> schedule = new LinkedHashMap<String, String>();
     private Map<String, Integer> offPassRanks = new LinkedHashMap<String, Integer>();
@@ -37,7 +38,8 @@ public class Main {
     private List<Differential> offPassDiff = new ArrayList<Differential>();
     private List<Differential> offRushDiff = new ArrayList<Differential>();
 
-    public Main(String scheduleUrl) {
+    public Main(String week, String scheduleUrl) {
+        this.week = week;
         this.scheduleUrl = scheduleUrl;
     }
 
@@ -60,7 +62,7 @@ public class Main {
             week = "";
         }
 
-        Main main = new Main(String.format(SCHEDULE, week));
+        Main main = new Main(week, String.format(SCHEDULE, week));
         main.load();
         System.exit(0);
     }
@@ -77,8 +79,11 @@ public class Main {
     }
 
     private void loadSchedule() {
+        System.out.println("\n\n" + "Date: " + new Date() + "\n");
         System.out.println("Loading schedule: " + scheduleUrl + "\n");
-        System.out.println("Games: \n");
+
+        String weekOutput = ("".equals(week)) ? "(current)" : week;
+        System.out.println(String.format("Games for week: %1$s\n", weekOutput));
 
         // Get rid of bye week teams.
         Document doc = loadDocument(scheduleUrl);
@@ -93,7 +98,7 @@ public class Main {
             String team = teams.get(i).html();
             if ((i % 2) == 0) {
                 awayTeam = team;
-                System.out.print(team);
+                System.out.print(String.format("%1$3s", team));
             } else {
                 homeTeam = team;
                 schedule.put(awayTeam, homeTeam);
@@ -179,7 +184,7 @@ public class Main {
         for (Map.Entry<String, Integer> entry : offRanks.entrySet()) {
             String opponent = schedule.get(entry.getKey());
             if (opponent == null) {
-                System.out.println(String.format("%1$s must be on a bye.", entry.getKey()));
+                System.out.println(String.format("%1$s appears to be on a bye.", entry.getKey()));
                 continue;
             }
 
