@@ -67,12 +67,6 @@ Example Output
 -------------
 
 ```
-Starting a new Gradle Daemon for this build (subsequent builds will be faster).
-Parallel execution with configuration on demand is an incubating feature.
-:compileJava UP-TO-DATE
-:processResources UP-TO-DATE
-:classes UP-TO-DATE
-:run
 Loading schedule: http://www.espn.com/nfl/schedule/_/week/
 
 Games: 
