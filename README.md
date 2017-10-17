@@ -47,7 +47,7 @@ It's good for finding favorable NFL matchups for a given week, solely based on r
 It stopped working.
 -------------
 
-I fully anticipate this will happen as soon as ESPN updates or changes their website. This is working ast of Oct 3rd, 2016. It is, however, susceptible to breaking because it is looking for specific HTML elements within the ESPN website. So if and when the web developers over at ESPN change things, this app will most likely break. It should be easy to fix though.
+I fully anticipate this will happen as soon as ESPN updates or changes their website. This is working ast of Oct 17th, 2017. It is, however, susceptible to breaking because it is looking for specific HTML elements within the ESPN website. So if and when the web developers over at ESPN change things, this app will most likely break. It should be easy to fix though.
 
 
 How do I run it?
